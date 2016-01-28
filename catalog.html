@@ -44,6 +44,57 @@
         </ul>
       </div>
       <div class="catalog">
+        <div class="catalog-filters">
+          <form class="catalog-filters-form" action="#">
+            <div class="catalog-filters-group">
+              <h2>ПРОИЗВОДИТЕЛИ:</h2>
+              <ul>
+                <li>
+                  <input type="checkbox" value="baxter" id="maker1" checked>
+                  <label for="maker1">BAXTER OF CALIFORNIA</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="natty" id="maker2">
+                  <label for="maker2">MR NATTY</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="suavecito" id="maker3" checked>
+                  <label for="maker3">SUAVECITO</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="malin" id="maker4">
+                  <label for="maker4">MALIN+GOETZ</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="murray" id="maker5">
+                  <label for="maker5">MURRAY'S</label>
+                </li>
+                <li>
+                  <input type="checkbox" name="crew" id="maker6" checked>
+                  <label for="maker6">AMERICAN CREW</label>
+                </li>
+              </ul>
+            </div>
+            <div class="catalog-filters-groups">
+              <h2>ГРУППЫ ТОВАРОВ:</h2>
+              <ul>
+                <li>
+                  <input type="radio" name="groups-of-items" value="shaving supplies" id="group1">
+                  <label for="group1">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
+                </li>
+                <li>
+                  <input type="radio" name="groups-of-items" value="care" id="group2" checked>
+                  <label for="group2">СРЕДСТВА ДЛЯ УХОДА</label>
+                </li>
+                <li>
+                  <input type="radio" name="groups-of-items" value="accessories" id="group3">
+                  <label for="group3">АКСЕССУАРЫ</label>
+                </li>
+              </ul>
+            </div>
+            <button type="btn" type="submit">Показать</button>
+          </form>
+        </div>
         <div class="catalog-content">
           <div class="catalog-items">
             <article class="catalog-item">
@@ -131,57 +182,6 @@
               <a class="paginator-btn" href="#">4</a>
             </div>
           </div>
-        </div>
-        <div class="catalog-filters">
-          <form class="catalog-filters-form" action="#">
-            <div class="catalog-filters-group">
-              <h2>ПРОИЗВОДИТЕЛИ:</h2>
-              <ul>
-                <li>
-                  <input type="checkbox" value="baxter" id="maker1" checked>
-                  <label for="maker1">BAXTER OF CALIFORNIA</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="natty" id="maker2">
-                  <label for="maker2">MR NATTY</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="suavecito" id="maker3" checked>
-                  <label for="maker3">SUAVECITO</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="malin" id="maker4">
-                  <label for="maker4">MALIN+GOETZ</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="murray" id="maker5">
-                  <label for="maker5">MURRAY'S</label>
-                </li>
-                <li>
-                  <input type="checkbox" name="crew" id="maker6" checked>
-                  <label for="maker6">AMERICAN CREW</label>
-                </li>
-              </ul>
-            </div>
-            <div class="catalog-filters-groups">
-              <h2>ГРУППЫ ТОВАРОВ:</h2>
-              <ul>
-                <li>
-                  <input type="radio" name="groups-of-items" value="shaving supplies" id="group1">
-                  <label for="group1">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label>
-                </li>
-                <li>
-                  <input type="radio" name="groups-of-items" value="care" id="group2" checked>
-                  <label for="group2">СРЕДСТВА ДЛЯ УХОДА</label>
-                </li>
-                <li>
-                  <input type="radio" name="groups-of-items" value="accessories" id="group3">
-                  <label for="group3">АКСЕССУАРЫ</label>
-                </li>
-              </ul>
-            </div>
-            <button type="btn" type="submit">Показать</button>
-          </form>
         </div>
       </div>
     </main>
